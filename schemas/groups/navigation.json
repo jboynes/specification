@@ -363,6 +363,12 @@
           "$ref": "../definitions.json#/definitions/timestamp"
         },
 
+        "scope": {
+          "$ref": "../definitions.json#/definitions/numberValue",
+          "description": "The length of anchor chain paid out.",
+          "units": "m"
+        },
+
         "maxRadius": {
           "$ref": "../definitions.json#/definitions/numberValue",
           "description": "Radius of anchor alarm boundary. The distance from anchor to the center of the boat",
