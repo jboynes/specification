@@ -1,0 +1,393 @@
+{
+  "length": {
+    "unit": "metre",
+    "symbol": "m"
+  },
+
+  "mass": {
+    "unit": "kilogram",
+    "symbol": "kg"
+  },
+
+  "duration": {
+    "unit": "second",
+    "symbol": "s"
+  },
+
+  "current": {
+    "unit": "ampere",
+    "symbol": "A"
+  },
+
+  "temperature": {
+    "unit": "kelvin",
+    "symbol": "K"
+  },
+
+  "substance": {
+    "unit": "mole",
+    "symbol": "mol"
+  },
+
+  "intensity": {
+    "unit": "candela",
+    "symbol": "cd"
+  },
+
+  "area": {
+    "unit": "square metre",
+    "symbol": "m2"
+  },
+
+  "volume": {
+    "unit": "cubic metre",
+    "symbol": "m3"
+  },
+
+  "speed": {
+    "unit": "metre per second",
+    "symbol": "m/s"
+  },
+
+  "acceleration": {
+    "unit": "metre per second squared",
+    "symbol": "m/s2"
+  },
+
+  "wavenumber": {
+    "unit": "reciprocal metre",
+    "symbol": "m-1"
+  },
+
+  "density": {
+    "unit": "kilogram per cubic metre",
+    "symbol": "kg/m3"
+  },
+
+  "surface density": {
+    "unit": "kilogram per square metre",
+    "symbol": "kg/m2"
+  },
+
+  "specific volume": {
+    "unit": "cubic metre per kilogram",
+    "symbol": "m3/kg"
+  },
+
+  "current density": {
+    "unit": "ampere per square metre",
+    "symbol": "A/m2"
+  },
+
+  "magnetic field strength": {
+    "unit": "ampere per metre",
+    "symbol": "A/m"
+  },
+
+  "concentration": {
+    "unit": "mole per cubic metre",
+    "symbol": "mol/m3"
+  },
+
+  "mass concentration": {
+    "unit": "kilogram per cubic metre",
+    "symbol": "kg/m3"
+  },
+
+  "luminance": {
+    "unit": "candela per square metre",
+    "symbol": "cd/m2"
+  },
+
+  "refractive index": {
+    "unit": "one",
+    "symbol": "1"
+  },
+
+  "relative permeability": {
+    "unit": "one",
+    "symbol": "1"
+  },
+
+  "plane angle": {
+    "unit": "radian",
+    "symbol": "rad"
+  },
+
+  "solid angle": {
+    "unit": "steradian",
+    "symbol": "sr"
+  },
+
+  "frequency": {
+    "unit": "hertz",
+    "symbol": "Hz"
+  },
+
+  "force": {
+    "unit": "newton",
+    "symbol": "N"
+  },
+
+  "pressure": {
+    "unit": "pascal",
+    "symbol": "Pa"
+  },
+
+  "energy": {
+    "unit": "joule",
+    "symbol": "J"
+  },
+
+  "power": {
+    "unit": "watt",
+    "symbol": "W"
+  },
+
+  "electric charge": {
+    "unit": "coulomb",
+    "symbol": "C"
+  },
+
+  "electric potential difference": {
+    "unit": "volt",
+    "symbol": "V"
+  },
+
+  "capacitance": {
+    "unit": "farad",
+    "symbol": "F"
+  },
+
+  "electric resistance": {
+    "unit": "ohm",
+    "symbol": "\u03a9"
+  },
+
+  "electric conductance": {
+    "unit": "siemens",
+    "symbol": "S"
+  },
+
+  "magnetic flux": {
+    "unit": "weber",
+    "symbol": "Wb"
+  },
+
+  "magnetic flux density": {
+    "unit": "tesla",
+    "symbol": "T"
+  },
+
+  "inductance": {
+    "unit": "henry",
+    "symbol": "H"
+  },
+
+  "Celsius temperature": {
+    "unit": "degree Celsius",
+    "symbol": "\u00b0C"
+  },
+
+  "luminous flux": {
+    "unit": "lumen",
+    "symbol": "lm"
+  },
+
+  "illuminance": {
+    "unit": "lux",
+    "symbol": "lx"
+  },
+
+  "radioactivity": {
+    "unit": "becquerel",
+    "symbol": "Bq"
+  },
+
+  "absorbed dose": {
+    "unit": "gray",
+    "symbol": "Gy"
+  },
+
+  "dose equivalent": {
+    "unit": "sievert",
+    "symbol": "Sv"
+  },
+
+  "catalytic activity": {
+    "unit": "katal",
+    "symbol": "kat"
+  },
+
+  "angular velocity": {
+    "unit": "radian per second",
+    "symbol": "rad/s"
+  },
+
+  "angular acceleration": {
+    "unit": "radian per second squared",
+    "symbol": "rad/s2"
+  },
+
+  "flow": {
+    "unit": "cubic metre per second",
+    "symbol": "m3/s"
+  },
+
+  "flow.fuel": {
+    "unit": "cubic metre per second",
+    "symbol": "m3/s"
+  },
+
+  "position": {
+    "description": "A position in latitude or longitude",
+    "unit": "degree",
+    "symbol": "\u00b0"
+  },
+
+  "ratio": {
+    "unit": "one",
+    "symbol": "1"
+  },
+
+  "pressure change": {
+    "unit": "pascal per second",
+    "symbol": "Pa/s"
+  },
+
+  "length.distance": {
+    "description": "Measurement of distance",
+    "unit": "metre",
+    "symbol": "m"
+  },
+
+  "length.altitude": {
+    "description": "Measurement of altitude",
+    "unit": "metre",
+    "symbol": "m"
+  },
+
+  "length.depth": {
+    "unit": "metre",
+    "symbol": "m"
+  },
+
+  "length.measure": {
+    "unit": "metre",
+    "symbol": "m"
+  },
+
+  "mass.displacement": {
+    "unit": "kilogram",
+    "symbol": "kg"
+  },
+
+  "plane angle.attitude": {
+    "unit": "radian",
+    "symbol": "rad"
+  },
+
+  "plane angle.course": {
+    "unit": "radian",
+    "symbol": "rad"
+  },
+
+  "plane angle.bearing": {
+    "unit": "radian",
+    "symbol": "rad"
+  },
+
+  "plane angle.relative.centreline": {
+    "description": "An angle relative to the centreline of a vessel",
+    "unit": "radian",
+    "symbol": "rad"
+  },
+
+  "electric potential difference.ac": {
+    "unit": "volt",
+    "symbol": "V"
+  },
+
+  "current.ac": {
+    "unit": "ampere",
+    "symbol": "a"
+  },
+
+  "electric potential difference.dc": {
+    "unit": "volt",
+    "symbol": "v"
+  },
+
+  "current.dc": {
+    "unit": "ampere",
+    "symbol": "a"
+  },
+
+  "temperature.atmosphere": {
+    "description": "Air temperature",
+    "unit": "kelvin",
+    "symbol": "K"
+  },
+
+  "temperature.water": {
+    "description": "Water temperature",
+    "unit": "kelvin",
+    "symbol": "K"
+  },
+
+  "temperature.device": {
+    "description": "Temperature related to a device",
+    "unit": "kelvin",
+    "symbol": "K"
+  },
+
+  "temperature.device.battery": {
+    "description": "Temperature related to a battery",
+    "unit": "kelvin",
+    "symbol": "K"
+  },
+
+  "electric charge.battery": {
+    "description": "Temperature related to a battery",
+    "unit": "kelvin",
+    "symbol": "K"
+  },
+
+  "pressure.atmosphere": {
+    "unit": "pascal",
+    "symbol": "Pa"
+  },
+
+  "pressure change.atmosphere": {
+    "unit": "pascal per second",
+    "symbol": "Pa/s"
+  },
+
+  "speed.current": {
+    "description": "Speed at which water is moving",
+    "unit": "meter per second",
+    "symbol": "m/s"
+  },
+
+  "speed.vessel": {
+    "description": "Speed at which vessel is moving",
+    "unit": "meter per second",
+    "symbol": "m/s"
+  },
+
+  "speed.wind": {
+    "description": "Wind speed",
+    "unit": "meter per second",
+    "symbol": "m/s"
+  },
+
+  "frequency.rotation": {
+    "unit": "hertz",
+    "symbol": "Hz"
+  },
+
+  "volume.tank": {
+    "unit": "cubic metre",
+    "symbol": "m3"
+  }
+}

@@ -23,13 +23,13 @@
         "total": {
           "description": "The total area of all sails on the vessel",
           "type": "number",
-          "units": "m2"
+          "units": "area"
         },
 
         "active": {
           "description": "The total area of the sails currently in use on the vessel",
           "type": "number",
-          "units": "m2"
+          "units": "area"
         },
 
         "timestamp": {

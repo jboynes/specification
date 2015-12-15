@@ -28,3 +28,10 @@ node_modules
 # FS stuff
 .DS_Store
 thumbs.db
+
+# exclude IDE stuff
+.settings
+.project
+.classpath
+.idea
+*.iml

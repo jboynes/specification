@@ -26,13 +26,13 @@
 
     "capacity": {
       "description": "Total capacity",
-      "units": "m3",
+      "units": "volume.tank",
       "$ref": "../definitions.json#/definitions/numberValue"
     },
 
     "level": {
       "description": "Amount of fluid in tank",
-      "units": "m3",
+      "units": "volume.tank",
       "$ref": "../definitions.json#/definitions/numberValue"
     }
   }

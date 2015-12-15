@@ -8,19 +8,19 @@
     "airPressureChangeRateAlarm": {
       "description": "Change per hour which will cause an alarm",
       "$ref": "../definitions.json#/definitions/numberValue",
-      "units": "Pa"
+      "units": "pressure change.atmosphere"
     },
 
     "airPressure": {
       "description": "Current air pressure",
       "$ref": "../definitions.json#/definitions/numberValue",
-      "units": "Pa"
+      "units": "pressure.atmosphere"
     },
     
     "airTemp": {
       "description": "Current air temperature",
       "$ref": "../definitions.json#/definitions/numberValue",
-      "units": "K"
+      "units": "temperature.atmosphere"
     },
     
     "depth": {
@@ -31,31 +31,31 @@
         "belowKeel": {
           "description": "Depth below keel",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "m"
+          "units": "length.depth"
         },
 
         "belowTransducer": {
           "description": "Depth below Transducer",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "m"
+          "units": "length.depth"
         },
         
         "belowSurface": {
           "description": "Depth from surface",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "m"
+          "units": "length.depth"
         },
         
         "transducerToKeel": {
           "description": "Depth from the transducer to the bottom of the keel",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "m"
+          "units": "length.depth"
         },
         
         "surfaceToTransducer": {
           "description": "Depth transducer is below the water",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "m"
+          "units": "length.depth"
         }
       }
     },
@@ -89,21 +89,21 @@
           "type": "number",
           "description": "The speed component of the water current vector",
           "example": 3.12,
-          "units": "m/s"
+          "units": "speed.current"
         },
 
         "setTrue": {
           "type": "number",
           "description": "The direction component of the water current vector referenced to true (geographic) north",
           "example": 123.45,
-          "units": "rad"
+          "units": "plane angle.bearing"
         },
 
         "setMagnetic": {
           "type": "number",
           "description": "The direction component of the water current vector referenced to magnetic north",
           "example": 131.22,
-          "units": "rad"
+          "units": "plane angle.bearing"
         }
       }
     },
@@ -116,19 +116,19 @@
         "heightHigh": {
           "description": "Next high tide",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "m"
+          "units": "length.depth"
         },
 
         "heightNow": {
           "description": "The current tide height",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "m"
+          "units": "length.depth"
         },
         
         "heightLow": {
           "description": "The next low tide height",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "m"
+          "units": "length.depth"
         },
         
         "timeLow": {
@@ -146,13 +146,13 @@
     "waterTemp": {
       "description": "Current water temperature",
       "$ref": "../definitions.json#/definitions/numberValue",
-      "units": "K"
+      "units": "temperature.water"
     },
    
     "heave": {
       "description": "Vertical movement of the vessel due to waves",
       "$ref": "../definitions.json#/definitions/numberValue",
-      "units": "m"
+      "units": "length"
     },
     
     "wind": {
@@ -163,61 +163,61 @@
         "angleApparent": {
           "description": "Apparent wind angle, negative to port",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "rad"
+          "units": "plane angle.relative.centreline"
         },
 
         "angleTrueGround": {
           "description": "True wind angle based on speed over ground, negative to port",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "rad"
+          "units": "plane angle.relative.centreline"
         },
         
         "angleTrueWater": {
           "description": "True wind angle based on speed through water, negative to port",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "rad"
+          "units": "plane angle.relative.centreline"
         },
         
         "directionChangeAlarm": {
           "description": "The angle the wind needs to shift to raise an alarm",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "rad"
+          "units": "plane angle"
         },
         
         "directionTrue": {
           "description": "The wind direction relative to true north",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "rad"
+          "units": "plane angle.bearing"
         },
         
         "directionMagnetic": {
           "description": "The wind direction relative to magnetic north",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "rad"
+          "units": "plane angle.bearing"
         },
         
         "speedAlarm": {
           "description": "The speed above which a wind alarm will be raised",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "m/s"
+          "units": "speed.wind"
         },
         
         "speedTrue": {
           "description": "Wind speed over water (as calculated from speedApparent and vessel's speed through water)",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "m/s"
+          "units": "speed.wind"
         },
         
         "speedOverGround": {
           "description": "Wind speed over ground (as calculated from speedApparent and vessel's speed over ground)",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "m/s"
+          "units": "speed.wind"
         },
         
         "speedApparent": {
           "description": "Apparent wind speed",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "m/s"
+          "units": "speed.wind"
         }
       }
     }

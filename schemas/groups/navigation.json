@@ -8,13 +8,13 @@
     "courseOverGroundMagnetic": {
       "description": "Course over ground (magnetic)",
       "$ref": "../definitions.json#/definitions/numberValue",
-      "units": "rad"
+      "units": "plane angle.course"
     },
 
     "courseOverGroundTrue": {
       "description": "Course over ground (true)",
       "$ref": "../definitions.json#/definitions/numberValue",
-      "units": "rad"
+      "units": "plane angle.course"
     },
 
     "activeRoute": {
@@ -35,25 +35,25 @@
         "bearingActual": {
           "type": "number",
           "description": "The current bearing of the next waypoint relative to true North",
-          "units": "rad"
+          "units": "plane angle.bearing"
         },
 
         "distanceActual": {
           "type": "number",
           "description": "The current distance to the next waypoint",
-          "units": "m"
+          "units": "length.distance"
         },
 
         "bearingDirect": {
           "type": "number",
           "description": "The bearing relative to true North from last waypoint to the next waypoint",
-          "units": "rad"
+          "units": "plane angle.bearing"
         },
 
         "courseRequired": {
           "type": "number",
           "description": "The course relative to true North towards the next waypoint",
-          "units": "rad"
+          "units": "plane angle.course"
         },
 
         "eta": {
@@ -100,7 +100,7 @@
             "xte": {
               "type": "number",
               "description": "Cross track error",
-              "units": "m"
+              "units": "length.distance"
             }
           }
         }
@@ -110,7 +110,7 @@
     "magneticVariation": {
       "$ref": "../definitions.json#/definitions/numberValue",
       "description": "The magnetic variation (declination) at the current position",
-      "units": "rad"
+      "units": "plane angle.bearing"
     },
 
     "destination": {
@@ -135,21 +135,21 @@
         "longitude": {
           "type": "number",
           "description": "Longitude of the destination",
-          "units": "deg",
+          "units": "position",
           "example": 4.98765245
         },
 
         "latitude": {
           "type": "number",
           "description": "Latitude of the destination",
-          "units": "deg",
+          "units": "position",
           "example": 52.0987654
         },
 
         "altitude": {
           "type": "number",
           "description": "Altitude of the destination",
-          "units": "m"
+          "units": "length.altitude"
         }
       }
     },
@@ -215,7 +215,7 @@
         "antennaAltitude": {
           "$ref": "../definitions.json#/definitions/numberValue",
           "description": "Altitude of antenna",
-          "units": "m"
+          "units": "length.measure"
         },
 
         "horizontalDilution": {
@@ -236,7 +236,7 @@
         "differentialAge": {
           "$ref": "../definitions.json#/definitions/numberValue",
           "description": "Age of DGPS data",
-          "units": "s"
+          "units": "duration"
         },
 
         "differentialReference": {
@@ -249,13 +249,13 @@
     "headingMagnetic": {
       "$ref": "../definitions.json#/definitions/numberValue",
       "description": "Current magnetic heading of the vessels",
-      "units": "rad"
+      "units": "plane angle.course"
     },
 
     "headingTrue": {
       "$ref": "../definitions.json#/definitions/numberValue",
       "description": "The current true heading of the vessel",
-      "units": "rad"
+      "units": "plane angle.course"
     },
 
     "position": {
@@ -276,20 +276,20 @@
         "longitude": {
           "type": "number",
           "description": "Longitude of boat",
-          "units": "deg",
+          "units": "position",
           "example": 4.98765245
         },
 
         "latitude": {
           "type": "number",
           "description": "Latitude of boat",
-          "units": "deg",
+          "units": "position",
           "example": 52.0987654
         },
 
         "altitude": {
           "type": "number",
-          "units": "m",
+          "units": "length.altitude",
           "description": "Altitude of boat"
         }
       }
@@ -305,19 +305,19 @@
         "roll": {
           "type": "number",
           "description": "Vessel roll, +ve is list to starboard",
-          "units": "rad"
+          "units": "plane angle.attitude"
         },
 
         "pitch": {
           "type": "number",
           "description": "Pitch, +ve is bow up",
-          "units": "rad"
+          "units": "plane angle.attitude"
         },
 
         "yaw": {
           "type": "number",
           "description": "Yaw, +ve is heading change to starboard",
-          "units": "rad"
+          "units": "plane angle.attitude"
         },
 
         "source": {
@@ -335,31 +335,31 @@
     "rateOfTurn": {
       "$ref": "../definitions.json#/definitions/numberValue",
       "description": "Rate of turn",
-      "units": "rad/s"
+      "units": "angular velocity"
     },
 
     "speedOverGround": {
       "$ref": "../definitions.json#/definitions/numberValue",
       "description": "Vessel speed over ground",
-      "units": "m/s"
+      "units": "speed"
     },
 
     "speedThroughWater": {
       "$ref": "../definitions.json#/definitions/numberValue",
       "description": "Vessel speed through the water",
-      "units": "m/s"
+      "units": "speed"
     },
 
     "log": {
       "$ref": "../definitions.json#/definitions/numberValue",
       "description": "Log value",
-      "units": "m"
+      "units": "length.distance"
     },
 
     "logTrip": {
       "$ref": "../definitions.json#/definitions/numberValue",
       "description": "Trip log value",
-      "units": "m"
+      "units": "length.distance"
     },
 
     "state": {
@@ -413,13 +413,13 @@
         "maxRadius": {
           "$ref": "../definitions.json#/definitions/numberValue",
           "description": "Radius of anchor alarm boundary. The distance from anchor to the center of the boat",
-          "units": "m"
+          "units": "length.measure"
         },
         
         "currentRadius": {
           "$ref": "../definitions.json#/definitions/numberValue",
           "description": "Current distance to anchor",
-          "units": "m"
+          "units": "length.measure"
         },
         
         "position": {
@@ -440,21 +440,21 @@
             "longitude": {
               "type": "number",
               "description": "Longitude of the anchor",
-              "units": "deg",
+              "units": "position",
               "example": 4.98765245
             },
             
             "latitude": {
               "type": "number",
               "description": "Latitude of the anchor",
-              "units": "deg",
+              "units": "position",
               "example": 52.0987654
             },
             
             "altitude": {
               "type": "number",
               "description": "Altitude of the anchor",
-              "units": "m"
+              "units": "length.altitude"
             }
           }
         }

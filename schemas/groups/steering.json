@@ -8,13 +8,13 @@
     "rudderAngle": {
       "description": "Current rudder angle, +ve is rudder to Starboard",
       "$ref": "../definitions.json#/definitions/numberValue",
-      "units": "rad"
+      "units": "plane angle.relative.centreline"
     },
 
     "rudderAngleTarget": {
       "description": "The angle the rudder should move to, +ve is rudder to Starboard",
       "$ref": "../definitions.json#/definitions/numberValue",
-      "units": "rad"
+      "units": "plane angle.relative.centreline"
     },
 
     "autopilot": {
@@ -76,13 +76,13 @@
         "targetHeadingNorth": {
           "description": "Target heading for autopilot, relative to true North",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "rad"
+          "units": "plane angle.bearing"
         },
 
         "targetHeadingMagnetic": {
           "description": "Target heading for autopilot, relative to magnetic North",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "rad"
+          "units": "plane angle.bearing"
         },
 
         "headingSource": {
@@ -113,13 +113,13 @@
         "deadZone": {
           "description": "Dead zone to ignore for rudder corrections",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "rad"
+          "units": "plane angle"
         },
 
         "backlash": {
           "description": "Slack in the rudder drive mechanism",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "rad"
+          "units": "plane angle"
         },
 
         "gain": {
@@ -130,25 +130,25 @@
         "maxDriveCurrent": {
           "description": "Maximum current to use to drive servo",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "A"
+          "units": "current"
         },
 
         "maxDriveRate": {
           "description": "Maximum rudder rotation speed",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "rad/s"
+          "units": "angular velocity"
         },
 
         "portLock": {
           "description": "Position of servo on port lock",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "rad"
+          "units": "plane angle.relative.centreline"
         },
 
         "starboardLock": {
           "description": "Position of servo on starboard lock",
           "$ref": "../definitions.json#/definitions/numberValue",
-          "units": "rad"
+          "units": "plane angle.relative.centreline"
         }
       }
     }

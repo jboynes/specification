@@ -8,7 +8,7 @@
     "displacement": {
       "$ref": "../definitions.json#/definitions/numberValue",
       "description": "The displacement of the vessel",
-      "units": "kg"
+      "units": "mass.displacement"
     },
     
     "draft": {
@@ -29,19 +29,19 @@
         "minimum": { 
           "description": "The minimum draft of the vessel",
           "type": "number",
-          "units": "m"
+          "units": "length.measure"
         },
         
         "maximum": { 
           "description": "The maximum draft of the vessel",
           "type": "number",
-          "units": "m"
+          "units": "length.measure"
         },
         
         "canoe": { 
           "description": "The draft of the vessel without protrusions such as keel, centerboard, rudder",
           "type": "number",
-          "units": "m"
+          "units": "length.measure"
         }
       }
     },
@@ -64,19 +64,19 @@
         "overall": {
           "type": "number",
           "description": "Length overall",
-          "units": "m"
+          "units": "length.measure"
         },
         
         "hull": {
           "type": "number",
           "description": "Length of hull",
-          "units": "m"
+          "units": "length.measure"
         },
         
         "waterline": {
           "type": "number",
           "description": "Length at waterline",
-          "units": "m"
+          "units": "length.measure"
         }
       }
     },
@@ -105,7 +105,7 @@
         "angle": {
           "$ref": "../definitions.json#/definitions/numberValue",
           "description": "A number indicating at which angle the keel currently is (in case of a canting keel), negative to port.",
-          "units": "rad"
+          "units": "plane angle.relative.centreline"
         },
 
         "lift": {
@@ -130,13 +130,13 @@
     "beam": {
       "$ref": "../definitions.json#/definitions/numberValue",
       "description": "Beam length",
-      "units": "m"
+      "units": "length.measure"
     },
 
     "airHeight": {
       "$ref": "../definitions.json#/definitions/numberValue",
       "description": "Total height of the vessel",
-      "units": "m"
+      "units": "length.measure"
     },
 
     "rigging": {

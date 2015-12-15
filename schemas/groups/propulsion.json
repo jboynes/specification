@@ -61,43 +61,43 @@
     "revolutions": {
       "description": "Engine revolutions",
       "$ref": "../definitions.json#/definitions/numberValue",
-      "units": "Hz"
+      "units": "frequency.rotation"
     },
 
     "temperature": {
       "description": "Engine temperature",
       "$ref": "../definitions.json#/definitions/numberValue",
-      "units": "K"
+      "units": "temperature"
     },
 
     "oilTemperature": {
       "description": "Oil temperature",
       "$ref": "../definitions.json#/definitions/numberValue",
-      "units": "K"
+      "units": "temperature"
     },
 
     "oilPressure": {
       "description": "Oil pressure",
       "$ref": "../definitions.json#/definitions/numberValue",
-      "units": "Pa"
+      "units": "pressure"
     },
 
     "waterTemperature": {
       "description": "Water temperature",
       "$ref": "../definitions.json#/definitions/numberValue",
-      "units": "K"
+      "units": "temperature"
     },
 
     "exhaustTemperature": {
       "description": "Exhaust temperature",
       "$ref": "../definitions.json#/definitions/numberValue",
-      "units": "K"
+      "units": "temperature"
     },
 
     "fuelRate": {
       "description": "Fuel consumption rate",
       "$ref": "../definitions.json#/definitions/numberValue",
-      "units": "m3/s"
+      "units": "flow.fuel"
     }
   }
 }

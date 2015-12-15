@@ -92,7 +92,7 @@
             "distance": {
               "description": "Total distance from start to end",
               "$ref": "../definitions.json#/definitions/numberValue",
-              "units": "m"
+              "units": "length.distance"
             },
   
             "waypoints": {
@@ -238,19 +238,19 @@
                 "longitude": {
                   "type": "number",
                   "description": "Longitude",
-                  "units": "deg"
+                  "units": "position"
                 },
 
                 "latitude": {
                   "type": "number",
                   "description": "Latitude",
-                  "units": "deg"
+                  "units": "position"
                 },
 
                 "altitude": {
                   "type": "number",
                   "description": "Altitude",
-                  "units": "m"
+                  "units": "length.altitude"
                 }
               }
             },
